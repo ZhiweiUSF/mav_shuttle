@@ -115,9 +115,9 @@ void create_input_parameters (input_parameters& input_params) {
 	}
 	//print_one_dimensional_vector(input_params.vehicle_operational_cost);
 
-	input_params.length_per_time_interval = 1.0; // minute
+	input_params.length_per_time_interval = 3.0; // minute
 	input_params.min_headway_interval = ceil(input_params.min_headway/input_params.length_per_time_interval); // time intervals
-	read_file("../data/3.csv", input_params.passenger_demand);
+	read_file("../data/1.csv", input_params.passenger_demand);
 	//print_one_dimensional_vector(input_params.passenger_demand);
 
 	input_params.num_time_indexes = input_params.passenger_demand.size();
