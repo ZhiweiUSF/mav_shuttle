@@ -11,7 +11,7 @@
 using namespace std;
 
 /*
- * This script is calls Gurobi to solve the discrete model in 
+ * This script calls Gurobi to solve the discrete model in 
  * Chen, Z., Li, X., & Zhou, X. (2019). Operational design for shuttle systems with modular vehicles under oversaturated traffic: Discrete modeling method. Transportation Research Part B: Methodological, 122, 1-19.
  * Author: Zhiwei Chen. 
  * email: zhiweic@usf.edu
